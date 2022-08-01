@@ -1,7 +1,10 @@
+import TrollList from './TrollList'
+
 const TrollPage = () => {
   return(
-    <div>
-      
+    <div className='trollPage'>
+      <h2>Troll Page</h2>
+      <TrollList />
     </div>
   )
 }

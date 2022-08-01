@@ -1,11 +1,8 @@
 .App {
   text-align: center;
   font-family: fantasy;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  color: greenyellow;
+  background-color: rgb(83, 48, 48);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,8 +22,13 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.trollList {
+  border: solid;
+  border-color: red;
+}
+.trollPage {
+  border: solid;
+  border-color: orange;
 }
 
 @keyframes App-logo-spin {
