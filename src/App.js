@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header'
-import TrollPage from './components/Header'
+import TrollPage from './components/TrollPage'
 
 function App() {
   return (

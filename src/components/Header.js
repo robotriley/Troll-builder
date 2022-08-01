@@ -5,7 +5,6 @@ return (
 <div>
 <h1>Troll Builder</h1>
 </div>
-)
-}
+)}
 
 export default Header
