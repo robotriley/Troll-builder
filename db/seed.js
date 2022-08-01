@@ -1,4 +1,4 @@
-const faker = require("faker");
+// const faker = require("faker");
 const fs = require("fs");
 const path = require("path");
 
@@ -20,7 +20,7 @@ for (let id = 1; id <= 10; id++) {
   db.notes.push({
     id,
     userId: db.users[0].id,
-    title: faker.lorem.sentence(rand(4)),
+    // title: faker.lorem.sentence(rand(4)),
     body: faker.lorem.paragraphs(3),
   });
 }
