@@ -1,19 +1,11 @@
 {
-  "posts": [
+  "trollProfiles": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "galalal",
+      "image": "https://t4.ftcdn.net/jpg/03/11/23/11/360_F_311231181_62FSitmUD9CFrJIrQrIrFegwzriw9vt5.jpg",
+      "beverage": "root beer",
+      "bug": "green",
+      "id": 1
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
