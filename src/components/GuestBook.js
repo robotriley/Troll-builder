@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import TrollCard from './TrollCard.js'
 
-const SafetyTips = () => {
+const GuestBook = () => {
     
 const [trolls, setTrolls] = useState(null)
 
@@ -25,13 +25,14 @@ useEffect(() => {
     }
 
     return (
-        <div>
+        <div id='#guestbook'>
             {console.log(trolls)}
-            <h1>Troll Gallery</h1>
+            <h1>Troll Guest Book</h1>
+            <h2>Trolls who have trod this way before. You sign guest book too. Leave picture so we say hi.</h2>
             {trolls ? showTrolls() : null }
 
         </div>
     )
 }
 
-export default SafetyTips
+export default GuestBook

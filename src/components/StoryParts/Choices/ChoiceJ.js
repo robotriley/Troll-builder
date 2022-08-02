@@ -3,7 +3,7 @@ import ChoiceD from "./ChoiceD"
 
 const ChoiceJ = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>Heave, HO! CANNONBALL! SPLASH!!!</h2>
         <h2>the mud splashes onto several members of royalty including the Castle Duke anndddd...</h2>
         <h2> Big Hollywood troll known as Shrek. Shrek is so mad. He's going to sue you right now.</h2>

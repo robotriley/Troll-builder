@@ -3,7 +3,7 @@ import ChoiceD from "./ChoiceD"
 
 const ChoiceG = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>Troll eats the blue bug. In less than 15 minutes, Troll feels more vitality, 
             potency and confidence than he has felt in the last decade!!!!.
         </h2>

@@ -3,7 +3,7 @@ import ChoiceJ from "./ChoiceJ"
 
 const ChoiceD = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>Little mud Lake. best view in the land. and the mud is just fine for dippin'.</h2>
 
         <button onClick={() => setChoice(<ChoiceI setChoice={setChoice} />) }>carefully dip your troll toe in da mud</button>

@@ -23,7 +23,7 @@ const About = () => {
         })
     }
     return (
-        <div>
+        <div id='about'>
         <h1>Heloooo I am Troll. I made this site. Please thank you.</h1>
 
         <form onSubmit={handleSubmit}>

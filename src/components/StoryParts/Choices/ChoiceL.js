@@ -3,7 +3,7 @@ import ChoiceD from "./ChoiceD"
 
 const ChoiceL = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>you turned over Rock. you find two juicy BuGS!!</h2>
 
         <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Eat da blue BUg</button>

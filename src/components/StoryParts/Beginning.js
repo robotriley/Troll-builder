@@ -4,7 +4,7 @@ import { Link, Routes, Route } from 'react-router-dom'
 
 const Beginning = ({setChoice} ) => {
     return(
-        <div> 
+        <div className="choice"> 
             <h1>Good morning. You are a troll. Every morning is good now.</h1>
             <h2>What do do doing today?</h2>
 

@@ -5,7 +5,7 @@ const NavBar = () => {
         <ul>
             <li><Link to="/">Play Troll Adventure Game</Link> </li>
             <li><Link to="/about">About</Link> </li>
-            <li><Link to="/safetytips">Troll Safety Tips</Link> </li>
+            <li><Link to="/GuestBook">Troll Guest Book</Link> </li>
         </ul>
     )
 }

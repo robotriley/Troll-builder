@@ -3,7 +3,7 @@ import ChoiceF from "./ChoiceF"
 
 const ChoiceB = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>What is a troll without a bridge? I don't want to know. That's why I'm here. at the bridge.</h2>
         <h2>Who is human under my favorite bridge? it's a bard...playing a song on his lute</h2>
 

@@ -3,7 +3,7 @@ import ChoiceD from "./ChoiceD"
 
 const ChoiceE = ({setChoice} ) => {
     return(
-        <div>
+        <div className="choice">
         <h2>Human: "Oh my, you have such amazing taste in rare troll music! please join me in song. we shall
             travel the land uniting humans and trolls with gentle melody and mirth."
         </h2>
