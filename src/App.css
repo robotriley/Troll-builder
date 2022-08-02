@@ -69,10 +69,30 @@ a {
 
 .choice {
   height: 900px;
-  width: auto;
+  margin-left: 30%;
+  width: 500px;
+  background-image: url('https://wallpaperaccess.com/full/3405998.jpg');
 }
 
 li {
   font-size: 1.5em;
   flex-direction: row;
+}
+#trollCard {
+  margin-left: 30%;
+  justify-content: center;
+  width: 40%;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-image: url('https://wallpaperaccess.com/full/3405998.jpg');
+  border: solid gold;
+  border-width: 5px;
+  border-radius: 10px;
+  
+}
+
+#cardImage {
+  border-radius: 10px;
+  border: solid black;
+  border-width: 5px;
 }
