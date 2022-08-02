@@ -1,5 +1,6 @@
 import ChoiceC from "./ChoiceC"
 import ChoiceD from "./ChoiceD"
+import Beginning from "../Beginning"
 
 const ChoiceH = ({setChoice} ) => {
     return(
@@ -9,10 +10,10 @@ const ChoiceH = ({setChoice} ) => {
             those are just GREEN BUGS. enjoy your meal.
         </h2>
 
-        <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Eat da blue BUg</button>
+        <button onClick={() => setChoice(<Beginning setChoice={setChoice} />) }>Troll belly is full. Time to sleep.</button>
 <br></br>
 <br></br>
-            <button onClick={() => setChoice(<ChoiceD setChoice={setChoice} />) }>eAt dA ReD bUG</button>
+            
             </div>
     )
 }

@@ -8,7 +8,7 @@ const ChoiceA = ({setChoice} ) => {
             rock over here and Little Mud Lake over there.
         </h2>
 
-        <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Turn over the a big rock</button>
+        <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Turn over big rock</button>
 <br></br>
 <br></br>
             <button onClick={() => setChoice(<ChoiceD setChoice={setChoice} />) }>go to Little Mud Lake</button>

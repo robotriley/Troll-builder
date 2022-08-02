@@ -1,5 +1,6 @@
 import ChoiceK from "./ChoiceK"
 import ChoiceD from "./ChoiceD"
+import Beginning from '../Beginning'
 
 const ChoiceE = ({setChoice} ) => {
     return(
@@ -9,10 +10,10 @@ const ChoiceE = ({setChoice} ) => {
         </h2>
         <h2>Troll: "hell yea"</h2>
 
-        <button onClick={() => setChoice(<ChoiceK setChoice={setChoice} />) }>Eat da blue BUg</button>
+        <button onClick={() => setChoice(<Beginning setChoice={setChoice} />) }>A beautiful troll day. (go to sleep now)</button>
 <br></br>
 <br></br>
-            <button onClick={() => setChoice(<ChoiceD setChoice={setChoice} />) }>eAt dA ReD bUG</button>
+
             </div>
     )
 }
