@@ -1,13 +1,12 @@
-const TrollCard = () => {
-  return (
+const TrollCard = ({troll} ) => {
+    return(
     <div>
-      <ul> Troll Card
-        <li>Troll Name</li>
-        <li>Spells</li>
-        <li>Weapon</li>
-      </ul>
+        <p>name: {troll.name} </p>
+        <p>favorite flavor of grog: {troll.beverage} </p>
+        <p>favorite color bug: {troll.bug} </p>
+        <img src={troll.image}></img>
     </div>
-  )
+    )
 }
 
 export default TrollCard
