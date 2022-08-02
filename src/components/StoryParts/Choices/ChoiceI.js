@@ -4,7 +4,7 @@ import Beginning from '../Beginning'
 
 const ChoiceI = ({setChoice} ) => {
     return(
-        <div className="choice">
+        <div className="choice" id='richTroll'>
         <h2>carefully, sweetly, Troll dips one toe into Little Mud Lake.</h2>
         <h2>What's that? Troll reveals foot to see between two toes: A GOLD COIN! </h2>
         <h2>TROLL EAT WELL TONIGHT.</h2>

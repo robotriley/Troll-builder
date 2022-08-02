@@ -1,10 +1,9 @@
-import ChoiceK from "./ChoiceK"
 import ChoiceD from "./ChoiceD"
 import Beginning from '../Beginning'
 
 const ChoiceE = ({setChoice} ) => {
     return(
-        <div className="choice">
+        <div className="choice" id='trollBand'>
         <h2>Human: "Oh my, you have such amazing taste in rare troll music! please join me in song. we shall
             travel the land uniting humans and trolls with gentle melody and mirth."
         </h2>

@@ -111,3 +111,8 @@ li {
   border: solid black;
   border-width: 5px;
 }
+
+li, label {
+  font-weight: bolder;
+}
+

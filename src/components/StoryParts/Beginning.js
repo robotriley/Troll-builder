@@ -6,7 +6,7 @@ const Beginning = ({setChoice} ) => {
     return(
         <div className="choice"> 
             <h1>Good morning. You are a troll. Every morning is good now.</h1>
-            <h2>What do do doing today?</h2>
+            <h2>What do you doing today?</h2>
 
             <button onClick={() => setChoice(<ChoiceA setChoice={setChoice} />) }>Go to Swampy Woods</button>
 <br></br>

@@ -27,13 +27,16 @@ const About = () => {
         <h1>Heloooo I am Troll. I made this site. Please thank you.</h1>
 
         <form onSubmit={handleSubmit}>
+            <label>Name</label>
             <input
                 type="text"
                 name="name"
-                placeholder="enter Troll Name here"
+                placeholder="Troll Name here"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />
+            <br></br>
+            <label>Image </label>
             <input
                 type="text"
                 name="image"
@@ -41,17 +44,21 @@ const About = () => {
                 value={image}
                 onChange={(e) => setImage(e.target.value)}
             />
+            <br></br>
+            <label>Beverage </label>
             <input
                 type="text"
                 name="beverage"
-                placeholder="please enter favorite flavor of grog"
+                placeholder="favorite grog flavor"
                 value={beverage}
                 onChange={(e) => setBeverage(e.target.value)}
             />
+            <br></br>
+            <label>Bug </label>
             <input
                 type="text"
                 name="bug"
-                placeholder="please enter favorite color of bug"
+                placeholder="favorite bug color"
                 value={bug}
                 onChange={(e) => setBug(e.target.value)}
             />
