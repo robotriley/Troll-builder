@@ -4,12 +4,14 @@ import ChoiceD from "./ChoiceD"
 const ChoiceA = ({setChoice} ) => {
     return(
         <div>
-        <h2>you turned over Rock. you find two juicy BuGS!!</h2>
+        <h2>you stomp and clomp into the swampiest woods in the land. they smell like cabbage. There is a 
+            rock over here and Little Mud Lake over there.
+        </h2>
 
-        <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Eat da blue BUg</button>
+        <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Turn over the a big rock</button>
 <br></br>
 <br></br>
-            <button onClick={() => setChoice(<ChoiceD setChoice={setChoice} />) }>eAt dA ReD bUG</button>
+            <button onClick={() => setChoice(<ChoiceD setChoice={setChoice} />) }>go to Little Mud Lake</button>
             </div>
     )
 }
