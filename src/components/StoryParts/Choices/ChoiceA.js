@@ -7,7 +7,7 @@ const ChoiceA = ({setChoice} ) => {
         <div>
         <h2 className="storyBeg" >stomping n' clomping
         </h2>
-          <h2 className="storyMid">into the swampiest woods in the land. they smell like cabbage.</h2>
+          <h2 className="storyMid">into the swampiest woods in the land. they smell like <em>CABBAGE</em>.</h2>
           <h2 className="storyEnd">There is a
             ROCK over here and Little Mud LAKE over there.</h2>
         </div>
