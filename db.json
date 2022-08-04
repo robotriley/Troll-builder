@@ -6,6 +6,20 @@
       "hobbies": "acrobatics",
       "values": "loving kindness",
       "id": 1
+    },
+    {
+      "name": "Grundlebop",
+      "image": "https://cdn.dribbble.com/users/115213/screenshots/15101855/media/fee5c18923147748734c89d89de7cc20.png?compress=1&resize=400x300&vertical=top",
+      "hobbies": "sniffing the earth",
+      "values": "sleep",
+      "id": 2
+    },
+    {
+      "name": "Shatloin",
+      "image": "https://pbs.twimg.com/media/ETqfwQ-XkAMLPi3?format=jpg&name=large",
+      "hobbies": "screeching",
+      "values": "radical honesty",
+      "id": 3
     }
   ]
 }

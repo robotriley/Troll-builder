@@ -21,7 +21,13 @@ const About = () => {
                 values: values,
             })
         })
+        setName("")
+        setImage("")
+        setHobbies("")
+        setValues("")
+        alert("thank you for submitting. go look at the guestbook OK BYE.")
     }
+
     return (
         <div id='about'>
         <h1>Heloooo I am Troll. I made this site. Please thank you.</h1>
