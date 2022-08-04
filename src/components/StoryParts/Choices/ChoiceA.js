@@ -4,7 +4,7 @@ import ChoiceD from "./ChoiceD"
 const ChoiceA = ({setChoice} ) => {
     return(
         <div className="choice">
-        <div className="swamp">
+        <div>
         <h2>you stomp and clomp into the swampiest woods in the land. they smell like cabbage. There is a 
             rock over here and Little Mud Lake over there.
         </h2>
