@@ -5,7 +5,7 @@ const GameArea = () => {
     const [choice, setChoice] = useState(null)
 
     return(
-        <div>
+        <div id='gameArea'>
             {choice ? choice : <Beginning setChoice={setChoice} />}
         </div>
     )

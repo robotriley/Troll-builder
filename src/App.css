@@ -3,6 +3,8 @@
   font-family: fantasy;
   color: greenyellow;
   background-color: rgb(83, 48, 48);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/904/364/959/cave-fantasy-dark-gray-concrete-wall-wallpaper-preview.jpg);
+  background-size: 2000px 1000px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,13 +42,76 @@
   }
 }
 
-a {
-  color: pink;
-}
-a:visited {
-  color: white;
+button {
+  border-radius: 10px;
+  background-color: tan;
+  border: solid black;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 10px yellowgreen;
 }
 
-a:hover {
-  color: yellow;
+button:hover {
+  border-radius: 10px;
+  background-color: black;
+  border: solid tan;
+  color: darkolivegreen;
+  font-size: 2.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 10px yellowgreen;
+}
+
+a {
+  color: white
+}
+#about {
+  height: 900px;
+  width: auto;
+}
+#guestbook {
+  height: 900px;
+  width: auto;
+}
+#gameArea {
+  height: 900px;
+  width: auto;
+}
+
+.choice {
+  height: 900px;
+  margin-left: 30%;
+  width: 500px;
+  background-image: url('https://wallpaperaccess.com/full/3405998.jpg');
+  border: solid darkgreen;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+li {
+  font-size: 1.5em;
+  flex-direction: row;
+}
+#trollCard {
+  margin-left: 30%;
+  justify-content: center;
+  width: 40%;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-image: url('https://wallpaperaccess.com/full/3405998.jpg');
+  border: solid gold;
+  border-width: 5px;
+  border-radius: 10px;
+  
+}
+
+#cardImage {
+  border-radius: 10px;
+  border: solid black;
+  border-width: 5px;
+}
+
+li, label {
+  font-weight: bolder;
 }
