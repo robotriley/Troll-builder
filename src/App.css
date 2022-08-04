@@ -5,6 +5,11 @@
   background-color: rgb(83, 48, 48);
   background-image: url(https://c4.wallpaperflare.com/wallpaper/904/364/959/cave-fantasy-dark-gray-concrete-wall-wallpaper-preview.jpg);
   background-size: 2000px 1000px;
+  border: solid green;
+}
+
+#headerText {
+  font-size: 5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -123,6 +128,13 @@ p {
   font-size: 1.5em;
   flex-direction: row;
 }
+
+.navBarItems {
+  font-size: 2.3em;
+  /* border: solid white; */
+  max-width: 25%;
+    padding: 20px;
+}
 li, label {
   font-weight: bolder;
   font-family: monospace;
@@ -137,11 +149,6 @@ li, label {
 }
 .swamp {
   background-image: url('https://cdnb.artstation.com/p/assets/images/images/050/162/029/large/andreea-florea-img-6126.jpg?1654189034');
-}
-
-.navBarItems {
-  max-width: 30%;
-  padding: 35px;
 }
 
 #troll-name {
