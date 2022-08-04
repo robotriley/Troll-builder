@@ -3,8 +3,8 @@ import React, {useState} from 'react'
 const About = () => {
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
-    const [beverage, setBeverage] = useState("")
-    const [bug, setBug] = useState("")
+    const [hobbies, setHobbies] = useState("")
+    const [values, setValues] = useState("")
 
 
     const handleSubmit = (e) => {
@@ -17,8 +17,8 @@ const About = () => {
             body: JSON.stringify({
                 name: name,
                 image: image,
-                beverage: beverage,
-                bug: bug,
+                hobbies: hobbies,
+                values: values,
             })
         })
     }
@@ -45,22 +45,22 @@ const About = () => {
                 onChange={(e) => setImage(e.target.value)}
             />
             <br></br>
-            <label>Beverage </label>
+            <label>Hobbies </label>
             <input
                 type="text"
-                name="beverage"
+                name="hobbies"
                 placeholder="favorite grog flavor"
-                value={beverage}
-                onChange={(e) => setBeverage(e.target.value)}
+                value={hobbies}
+                onChange={(e) => setHobbies(e.target.value)}
             />
             <br></br>
-            <label>Bug </label>
+            <label>Values </label>
             <input
                 type="text"
-                name="bug"
-                placeholder="favorite bug color"
-                value={bug}
-                onChange={(e) => setBug(e.target.value)}
+                name="values"
+                placeholder="values"
+                value={values}
+                onChange={(e) => setValues(e.target.value)}
             />
             <input type="submit" />
         </form>
