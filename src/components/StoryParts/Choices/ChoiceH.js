@@ -5,10 +5,11 @@ import Beginning from "../Beginning"
 const ChoiceH = ({setChoice} ) => {
     return(
         <div className="choice" id='redBug'>
-        <h2>you have taken the Red Bug. you are ready to see how deep the Troll Cave goes.
-            reality melts away to reveal an endless stream of bright green cryptology. oh wait,
-            those are just GREEN BUGS. enjoy your meal.
+        <h2 className="storyBeg" >you took da Red Bug.
         </h2>
+        <h2 className="storyMid">you ready to see how deep the Troll Cave goes.
+          reality melts away to reveal endless streams of green cryptology.oh wait...</h2>
+        <h2 className="storyEnd">those are green BUGS. eat up, NEo (this is from matrix 1999)</h2>
 
         <button onClick={() => setChoice(<Beginning setChoice={setChoice} />) }>Troll belly is full. Time to sleep.</button>
 <br></br>

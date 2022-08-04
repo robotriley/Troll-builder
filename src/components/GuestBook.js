@@ -27,8 +27,8 @@ useEffect(() => {
     return (
         <div id='#guestbook'>
             {console.log(trolls)}
-            <h1>Troll Guest Book</h1>
-            <h2>Trolls who have trod this way before. You sign guest book too. Leave picture so we say hi.</h2>
+            <h1 className="guestbookTitle">Troll Guest Book</h1>
+            <h3 className="guestbookDesc">Trolls who have trod this way before. You sign guest book too. Leave picture so we say hi.</h3>
             <div id='trollCard'>{trolls ? showTrolls() : null }</div>
 
         </div>

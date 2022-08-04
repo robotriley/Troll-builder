@@ -4,7 +4,9 @@ import ChoiceH from "./ChoiceH"
 const ChoiceC = ({setChoice} ) => {
     return(
         <div className="choice">
-        <h2>lifting and flipping that heavy rock made me soooo hungry. oh look, TWO JUICY BUGS to eat!!!</h2>
+        <h2 className="storyBeg">Lifting and flipping</h2>
+        <h2 className="storyMid">heavy rocks makes me soooo hungry. oh look...</h2>
+        <h2 className="storyEnd">TWO JUICY BUGS!!!</h2>
 
         <button onClick={() => setChoice(<ChoiceG setChoice={setChoice} />) }>Eat da blue BUg</button>
 <br></br>

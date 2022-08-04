@@ -5,9 +5,11 @@ const ChoiceA = ({setChoice} ) => {
     return(
         <div className="choice">
         <div>
-        <h2>you stomp and clomp into the swampiest woods in the land. they smell like cabbage. There is a 
-            rock over here and Little Mud Lake over there.
+        <h2 className="storyBeg" >stomping n' clomping
         </h2>
+          <h2 className="storyMid">into the swampiest woods in the land. they smell like cabbage.</h2>
+          <h2 className="storyEnd">There is a
+            ROCK over here and Little Mud LAKE over there.</h2>
         </div>
 
         <button onClick={() => setChoice(<ChoiceC setChoice={setChoice} />) }>Turn over big rock</button>

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: fantasy;
+  font-family: monospace;
   color: greenyellow;
   background-color: rgb(83, 48, 48);
   background-image: url(https://c4.wallpaperflare.com/wallpaper/904/364/959/cave-fantasy-dark-gray-concrete-wall-wallpaper-preview.jpg);
@@ -9,42 +9,16 @@
 }
 
 #headerText {
+  font-family: fantasy;
   font-size: 5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: orange;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.trollList {
-  border: solid;
-  border-color: red;
-}
-.trollPage {
-  border: solid;
-  border-color: orange;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: yellowgreen;
 }
 
 button {
@@ -65,23 +39,17 @@ button:hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 0px 0px 10px yellowgreen;
 }
-
-a {
-  color: orange;
-}
-a:hover {
-  color: yellowgreen;
-}
 #about {
   height: 900px;
   width: auto;
+  font-size: 1.5em;
 }
 #guestbook {
   height: 900px;
   width: auto;
 }
 #gameArea {
-  height: 900px;
+  height: auto;
   width: auto;
 }
 
@@ -124,7 +92,7 @@ li {
 p {
   font-weight: bolder;
   font-family: monospace;
-  text-shadow: 0px 0px 10px goldenrod;
+  text-shadow: 0px 0px 20px goldenrod;
   font-size: 1.5em;
   flex-direction: row;
 }
@@ -135,7 +103,7 @@ p {
   max-width: 25%;
     padding: 20px;
 }
-li, label {
+label {
   font-weight: bolder;
   font-family: monospace;
   text-shadow: 0px 0px 10px goldenrod;
@@ -147,12 +115,36 @@ li, label {
   flex-direction: row;
   justify-content: center;
 }
-.swamp {
-  background-image: url('https://cdnb.artstation.com/p/assets/images/images/050/162/029/large/andreea-florea-img-6126.jpg?1654189034');
-}
 
 #troll-name {
   font-size: 2.5em;
   font-family: monospace;
-  text-shadow: 0px 0px 10px goldenrod;
+  text-shadow: 0px 0px 20px goldenrod;
+}
+
+.guestbookTitle {
+  font-family: fantasy;
+  font-size: 4em;
+}
+
+.guestbookDesc {
+  font-size: 3em;
+  text-shadow: 0px 2px 0px black;
+  /* background-color: white; */
+  
+}
+
+.storyBeg {
+  font-family: fantasy;
+  font-size: 3em;
+  
+}
+.storyMed {
+  font-family: monospace;
+  font-size: 2em;
+}
+.storyEnd {
+  font-family: fantasy;
+  font-size: 1.5em;
+
 }

@@ -55,7 +55,7 @@ const About = () => {
             <input
                 type="text"
                 name="hobbies"
-                placeholder="favorite grog flavor"
+                placeholder="favorite hobby"
                 value={hobbies}
                 onChange={(e) => setHobbies(e.target.value)}
             />
@@ -64,7 +64,7 @@ const About = () => {
             <input
                 type="text"
                 name="values"
-                placeholder="values"
+                placeholder="troll values"
                 value={values}
                 onChange={(e) => setValues(e.target.value)}
             />
