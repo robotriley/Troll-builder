@@ -20,6 +20,13 @@
       "hobbies": "screeching",
       "values": "radical honesty",
       "id": 3
+    },
+    {
+      "name": "woolburr",
+      "image": "https://files.slack.com/files-pri/T02MD9XTF-F03STCYLSQZ/pasted_graphic_4.jpg",
+      "hobbies": "hiding",
+      "values": "WORMS!!!",
+      "id": 4
     }
   ]
 }
