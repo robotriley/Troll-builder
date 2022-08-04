@@ -1,10 +1,10 @@
 {
   "trollProfiles": [
     {
-      "name": "galalal",
+      "name": "Borgdorf",
       "image": "https://t4.ftcdn.net/jpg/03/11/23/11/360_F_311231181_62FSitmUD9CFrJIrQrIrFegwzriw9vt5.jpg",
-      "beverage": "root beer",
-      "bug": "green",
+      "hobbies": "acrobatics",
+      "values": "loving kindness",
       "id": 1
     }
   ]
