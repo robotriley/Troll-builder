@@ -113,10 +113,12 @@ li {
   max-width: 75%;
 }
 
-li, label {
+p {
   font-weight: bolder;
   font-family: monospace;
   text-shadow: 0px 0px 10px goldenrod;
+  font-size: 2.5em;
+  flex-direction: row;
 }
 li, label:hover {
   font-weight: bolder;
