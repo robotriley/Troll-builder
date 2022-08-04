@@ -135,6 +135,9 @@ li, label:hover {
   flex-direction: row;
   justify-content: center;
 }
+.swamp {
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/050/162/029/large/andreea-florea-img-6126.jpg?1654189034');
+}
 
 .navBarItems {
   max-width: 30%;
