@@ -5,7 +5,7 @@ import About from './components/About.js'
 import NavBar from './components/NavBar.js'
 import GuestBook from './components/GuestBook.js'
 import Header from './components/Header.js'
-
+import React from 'react';
 
 function App() {
   return (

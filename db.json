@@ -34,6 +34,27 @@
       "hobbies": "Coding",
       "values": "good stuff",
       "id": 5
+    },
+    {
+      "name": "BIPER",
+      "image": "https://images.fineartamerica.com/images/artworkimages/medium/1/mushroom-hunting-troll-bard-algol.jpg",
+      "hobbies": "lookin at people",
+      "values": "your necklace...",
+      "id": 6
+    },
+    {
+      "name": "garflof",
+      "image": "https://i.pinimg.com/736x/19/31/e6/1931e6b2e7e80264d1b13fd5ab10bbfd.jpg",
+      "hobbies": "spelunking",
+      "values": "gold!!!",
+      "id": 7
+    },
+    {
+      "name": "Doobins",
+      "image": "https://i.pinimg.com/736x/e6/7e/0a/e67e0a91d155062cf79635d6aa417054--s-toys-action-figures.jpg",
+      "hobbies": "rasslin",
+      "values": "honesty",
+      "id": 8
     }
   ]
 }
